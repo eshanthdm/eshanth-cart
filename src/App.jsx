@@ -2,10 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import Blog from "./pages/Blog";
+
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import Address from "./pages/Address";
+import Blog from "./pages/blog";
 
 
 function App() {
