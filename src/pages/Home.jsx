@@ -13,7 +13,7 @@ import {
   FaTrash, FaUpload, FaCheck, FaAngleDown, FaAngleUp, FaLaptop
 } from 'react-icons/fa';
 
-const SkillGridWebsite = () => {
+const EdTech = () => {
   const [activePage, setActivePage] = useState('home');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
