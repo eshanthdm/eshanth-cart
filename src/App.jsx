@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import Product from "./pages/product";
+import Product from "./pages/Product";
 import Address from "./pages/Address";
 
 
