@@ -13,7 +13,7 @@ import {
   FaTrash, FaUpload, FaCheck, FaAngleDown, FaAngleUp, FaLaptop
 } from 'react-icons/fa';
 
-const EdTech = () => {
+const SkillGridWebsite = () => {
   const [activePage, setActivePage] = useState('home');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -955,7 +955,7 @@ const EdTech = () => {
         <div style={styles.logoIcon}>
           <FaGraduationCap />
         </div>
-        <span style={styles.logoText}>SkillGrid</span>
+        <span style={styles.logoText}>Eshanth</span>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
         <div style={{ ...styles.navLinks, display: mobileMenuOpen ? 'flex' : 'flex', flexDirection: mobileMenuOpen ? 'column' : 'row', position: mobileMenuOpen ? 'absolute' : 'relative', top: mobileMenuOpen ? '70px' : 'auto', left: mobileMenuOpen ? '0' : 'auto', backgroundColor: mobileMenuOpen ? '#fff' : 'transparent', width: mobileMenuOpen ? '100%' : 'auto', padding: mobileMenuOpen ? '20px' : '0', boxShadow: mobileMenuOpen ? '0 4px 20px rgba(0,0,0,0.1)' : 'none', zIndex: 999 }}>
